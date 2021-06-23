@@ -1,0 +1,9 @@
+---
+# tasks file for webserver
+- name: Install httpd
+  yum:
+    name: "{{ packages }}"
+- name: start httpd
+  service:
+    name: httpd
+    state: started

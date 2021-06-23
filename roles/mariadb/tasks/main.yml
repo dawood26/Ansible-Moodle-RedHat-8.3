@@ -1,0 +1,17 @@
+---
+# tasks file for mariadb
+- name: Install MySQL modularity appstream with defined stream and profile
+  dnf:
+    name: '@mysql:8.0/*'
+    state: present
+
+- name: Install mysql Packages
+  yum:
+    name: '{{ packages }}'
+    state: latest
+
+- name: start mysql service
+  service:
+    name: mysqld
+    enabled: yes
+    state: started

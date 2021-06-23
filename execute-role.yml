@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - webserver
+    - php7
+    - mariadb
+    - mysql-config
+    #- firewall-config
+    - moodle-config

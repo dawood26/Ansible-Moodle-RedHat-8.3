@@ -1,0 +1,12 @@
+---
+# tasks file for php7
+- name: Install PHP modularity appstream with defined stream and profile
+  dnf:
+    name: '@php:7.4'
+    state: present
+
+- name: install php packages
+  yum:
+    name: '{{ packages }}'
+    state: latest
+

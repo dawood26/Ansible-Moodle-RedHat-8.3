@@ -1,0 +1,6 @@
+---
+# vars file for webserver
+packages:
+  - bash-completion
+  - net-tools
+  - httpd

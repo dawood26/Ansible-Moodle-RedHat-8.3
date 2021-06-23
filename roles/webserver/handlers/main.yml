@@ -1,0 +1,10 @@
+---
+# handlers file for webserver
+- name: restart httpd server
+  service:
+    name: httpd
+    state: restarted
+- name: start-enable-mariadb
+  service:
+    name: mariadb
+    state: restarted

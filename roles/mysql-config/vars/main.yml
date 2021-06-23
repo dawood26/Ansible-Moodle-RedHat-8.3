@@ -1,0 +1,6 @@
+---
+# vars file for mysql-config
+databases:
+  - moodle
+  - joomla
+  - drupal

@@ -1,0 +1,19 @@
+---
+# vars file for php7
+packages:
+  - php-cli
+  - php-mysqlnd
+  - php-bcmath
+  - php-json
+  - php-fpm
+  - php-zip
+  - php-devel
+  - php-gd
+  - php-mbstring
+  - php-curl
+  - php-xml
+  - php-pear
+  - php-bcmath
+  - php-json
+  - php-intl
+  - php-xmlrpc
